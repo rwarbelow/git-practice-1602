@@ -13,7 +13,7 @@ Things you may want to cover:
 
 * Configuration Here is the configuration
 
-* Database creation
+* Database creation I created the database-----not!
 
 * Database initialization
 
