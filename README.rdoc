@@ -15,7 +15,7 @@ Things you may want to cover:
 
 * Database creation I created the database-----not!
 
-* Database initialization
+* Database initialization I intialize this database-----poof!
 
 * How to run the test suite
 
