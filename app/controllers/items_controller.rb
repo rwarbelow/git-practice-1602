@@ -11,6 +11,8 @@ class ItemsController < ApplicationController
   # GET /items/1.json
   def show
     a = 3
+    b=16
+    l=a+2
   end
 
   # GET /items/new
