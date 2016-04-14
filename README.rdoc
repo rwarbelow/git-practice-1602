@@ -1,27 +1,30 @@
 == README
 
-Some important info! 
+Some important info!
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version adding ruby version
 
-* System dependencies
+* System dependencies adding dependencies
 
-* Configuration
+* Configuration Here is the configuration
 
-* Database creation
+* Database creation I created the database-----not!
 
-* Database initialization
+* Database initialization I intialize this database-----poof!
 
-* How to run the test suite
+* How to run the test suite JUST RUN IT!!!!!!!
 
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
+
+
+here's how to deploy this beauty///////
 
 * ...
 
