@@ -1,7 +1,7 @@
 class ItemsController < ApplicationController
   before_action :set_item, only: [:show, :edit, :update, :destroy]
 
-  def index
+ def index
     @items = Item.all
   end
 
@@ -14,8 +14,6 @@ class ItemsController < ApplicationController
   dhf edit
   end
 
-  # POST /items
-  # POST /items.json
   def create
     @item = Item.new(item_params)
 
@@ -30,8 +28,6 @@ class ItemsController < ApplicationController
     end
   end
 
-  # PATCH/PUT /items/1
-  # PATCH/PUT /items/1.json
   def update
     respond_to do |format|
       if @item.update(item_params)
@@ -46,12 +42,10 @@ class ItemsController < ApplicationController
 
 
   private
-    # Use callbacks to share common setup or constraints between actions.
     def set_item
       @item = Item.find(params[:id])
     end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
     def item_params
       params.require(:item).permit(:name, :description, :price)
     end
