@@ -8,12 +8,10 @@ class ItemsController < ApplicationController
   def show
   end
 
-  # GET /items/new
   def new
     @item = Item.new
   end
 
-  # GET /items/1/edit
   def edit
   end
 
